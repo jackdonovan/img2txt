@@ -39,6 +39,11 @@ def makeWidgets():
     closeBtn.pack()
     closeBtn.place(height=30, width=70, rely=.85, relx=.82)
 
+    # Process Button
+    processBtn = tk.Button(window, text ="Process", command = quit )
+    processBtn.pack()
+    processBtn.place(height=30, width=70, rely=.85, relx=.67)
+
     # Browse for file button
     browseButton = tk.Button(window, text = "Browse for\n Input Files", command = browseFiles)
     browseButton.pack()
